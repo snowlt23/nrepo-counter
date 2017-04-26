@@ -1,0 +1,11 @@
+﻿
+{
+    "manifest_version": 2,
+    "name": "nrepo-counter",
+    "version": "0.1.0",
+    "description": "",
+    "content_scripts": [{
+        "matches": ["https://secure.nnn.ed.jp/mypage/report/*"],
+        "js": ["nrepo-counter.js"]
+    }]
+}
